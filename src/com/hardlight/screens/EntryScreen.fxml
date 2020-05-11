@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import com.hardlight.components.ActionButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<StackPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.2-internal"
+           fx:id="parentContainer"
+           fx:controller="com.hardlight.controllers.EntryController"
+           prefHeight="600.0" prefWidth="600.0">
+    <AnchorPane fx:id="anchorRoot">
+        <VBox>
+            <ActionButton text="PvP Game" onAction="#onPvPGameClicked"/>
+            <ActionButton text="Tournament"/>
+            <ActionButton text="Multiplayer"/>
+            <ActionButton text="Exit"/>
+        </VBox>
+    </AnchorPane>
+</StackPane>

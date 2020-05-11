@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.hardlight.components.ActionButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml"
+            xmlns="http://javafx.com/javafx"
+            fx:controller="com.hardlight.controllers.SingleSettingsController"
+            prefHeight="600.0" prefWidth="600.0"
+            style="-fx-background-color: #ff0000">
+    <ActionButton text="Some text"/>
+</AnchorPane>
